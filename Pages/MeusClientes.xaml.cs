@@ -7,8 +7,19 @@ public partial class MeusClientes : ContentPage
 		InitializeComponent();
 	}
 
-    private async void OnStackNovoClienteTapped(object sender, EventArgs e)
+
+    private async void btnInsert_Clicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new NovoCliente());
     }
+
+    private void searchBarChanged(object sender, TextChangedEventArgs e)
+    {
+        
+
+    }
+
+
+
+
 }

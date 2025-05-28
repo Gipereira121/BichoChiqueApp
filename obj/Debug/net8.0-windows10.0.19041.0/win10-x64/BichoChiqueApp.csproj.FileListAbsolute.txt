@@ -191,3 +191,5 @@ C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows1
 C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\insertplus.scale-100.png
 C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bin.scale-100.png
 C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pencil.scale-100.png
+C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\BichoChiqueApp.sourcelink.json
+C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa.scale-100.png
