@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BichoChiqueApp.Pages.MeusClientes"
+             Title=""
+             BackgroundColor="#fff">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+            <Label 
+                   Text="Meus Clientes"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="Black"/>
+
+            <Label Text="Aqui você pode visualizar e gerenciar as informações dos seus clientes. Acompanhe os dados cadastrados, atualize informações e mantenha um controle organizado e seguro dos seus registros." TextColor="Black" FontSize="12"/>
+
+            <HorizontalStackLayout  BackgroundColor="#E7EDE4" Padding="10" Margin="10, 0, 0, 15" Spacing="10">
+                <Image Source="insertplus.png"/>
+                <Label x:Name="newClientes" Text="Novos Clientes" TextColor="#161616" FontAttributes="Bold"/>
+            </HorizontalStackLayout>
+            
+            <HorizontalStackLayout  BackgroundColor="#E7EDE4" Padding="10" Margin="10, 0, 0, 15" Spacing="10">
+                <Image Source="search.png"/>
+                <Label x:Name="SearchClientes" Text="Pesquisar Clientes" TextColor="#161616" FontAttributes="Bold"/>
+
+                <HorizontalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStackNovoClienteTapped"/>
+                </HorizontalStackLayout.GestureRecognizers>
+
+            </HorizontalStackLayout>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

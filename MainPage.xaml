@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BichoChiqueApp.MainPage"
+             Title=""
+             BackgroundColor="#FFFFFF">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+            <Image
+                Margin="0, 20, 0, 0"
+                Source="logo.png"
+                HeightRequest="145"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Loo clinica veterinaria" />
+
+            <Label TextColor="Chocolate" Text="BICHO CHIQUE" Style="{StaticResource Headline}" SemanticProperties.HeadingLevel="Level1" Padding="0" />
+            <Label TextColor="Chocolate" Text="Clinica Veterinária 24h " HorizontalOptions="Center" TranslationY="-25"/>
+
+            <Label Padding="0, 300, 0, 0" TextColor="#070719" Text="Seja Benvindo(a)," FontSize="Medium" FontAttributes="Bold"/>
+            <Label  TextColor="#070719" Text="Esta é  sua clínica de agendamento online para seu pet. Para continuar selecione uma das opções a baixo:" />
+
+            <Grid ColumnSpacing="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Button Grid.Column="0" x:Name="btnLogin" Text="Login" Clicked="btnLogin_Clicked" HorizontalOptions="Fill"  BackgroundColor="#FF9920" TextColor="White" FontAttributes="Bold"/>
+                <Button Grid.Column="1" x:Name="btnCadastro" Text="Cadastro"  Clicked="btnCadastro_Clicked" HorizontalOptions="Fill" BackgroundColor="#F1C28A" TextColor="#965200" FontAttributes="Bold"/>
+
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

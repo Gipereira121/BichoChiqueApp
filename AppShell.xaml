@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="BichoChiqueApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:BichoChiqueApp"
+    Title="BichoChiqueApp"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.TabBarIsVisible="True"
+    Shell.TabBarBackgroundColor="#132A13"
+    Shell.TabBarTitleColor="White"
+    Shell.BackgroundColor="#132A13"
+    Shell.FlyoutBackgroundColor="#132A13"
+    Shell.TitleColor="White"
+    Shell.DisabledColor="White"
+    Shell.ForegroundColor="White"
+    Shell.UnselectedColor="White">
+
+    <Shell.FlyoutHeader>
+        <ScrollView>
+            <VerticalStackLayout Spacing="20" Padding="20, 30">
+                <Image
+                    Source="logo.png"
+                    HeightRequest="100"
+                    WidthRequest="100"/>
+
+                <Label Text="BICHO CHIQUE" FontAttributes="Bold" FontSize="Medium" TextColor="#F1BE4D" HorizontalOptions="Center" Padding="0, 0, 0, 50"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </Shell.FlyoutHeader>
+
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+        Icon="home.png"
+        Title="Home"
+        ContentTemplate="{DataTemplate local:Pages.Home}"
+        Route="Pages.Home" />
+
+        <ShellContent
+        Icon="plus.png"
+        Title="Cadastrar"
+        ContentTemplate="{DataTemplate local:Pages.Cadastro}"
+        Route="Cadastro" />
+
+        <ShellContent
+        Icon="consultas.png"
+        Title="Consultas"
+        ContentTemplate="{DataTemplate local:Pages.Consultas}"
+        Route="Consultas" />
+
+        <ShellContent
+        Icon="pets.png"
+        Title="Meus Pets"
+        ContentTemplate="{DataTemplate local:Pages.MeusPets}"
+        Route="Pages.MeuPets" />
+
+        <!-- <ShellContent
+        Icon="profile.png"
+        Title="Meus Perfil"
+        ContentTemplate="{DataTemplate local:Pages.MeuPerfil}"
+        Route="Pages.MeuPerfil" /> -->
+        
+        <ShellContent
+        Icon="clientes.png"
+        Title="Meus Clientes"
+        ContentTemplate="{DataTemplate local:Pages.MeusClientes}"
+        Route="Pages.MeuClientes" />
+
+        <ShellContent
+        Icon="aboutus.png"
+        Title="Sobre Nós"
+        ContentTemplate="{DataTemplate local:Pages.QuemSomos}"
+        Route="Pages.QuemSomos" />
+
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+
+        <Label
+			Text="© Giovana Pereira Gustavo  |   RA: 2400539"
+            TextColor="White"
+            Margin="0, 0, 0, 40"
+            HorizontalTextAlignment="Center"/>
+
+    </Shell.FlyoutFooter>
+
+</Shell>

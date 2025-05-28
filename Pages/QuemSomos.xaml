@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BichoChiqueApp.Pages.QuemSomos"
+             Title=""
+             BackgroundColor="#fff">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Margin="10">
+            <Image
+                    Source="logo.png"
+                    HeightRequest="100"
+                    WidthRequest="100"/>
+
+            <Label Text="BICHO CHIQUE" FontAttributes="Bold" FontSize="Medium" TextColor="#F1BE4D" HorizontalOptions="Center" Padding="0, 10, 0, 30"/>
+
+
+            <Label Text="Na Bihcho Chique, acreditamos que cada animal merece cuidados excepcionais e um toque de sofisticação. Nossa clínica veterinária é um espaço acolhedor e moderno, projetado para oferecer o melhor em saúde e bem-estar para o seu pet." TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" />
+
+            <Label Text="Nossos Serviços:" TextColor="Black" FontAttributes="Bold" Margin="0, 40, 0, 10" FontSize="Medium"/>
+
+            <Label Text=" - Consultas veterinárias personalizadas. " TextColor="Black"/>
+            <Label Text=" - Vacinação e prevenção de doenças." TextColor="Black"/>
+            <Label Text=" - Exames laboratoriais e diagnósticos avançados." TextColor="Black"/>
+            <Label Text=" - Cirurgias com equipamentos de última geração." TextColor="Black"/>
+            <Label Text=" - Internação com monitoramento 24 horas." TextColor="Black"/>
+            <Label Text=" - Banho, tosa e cuidados estéticos para deixar seu pet ainda mais chique!" TextColor="Black"/>
+
+            <Label Text="Nossa Localização e Contato: " FontAttributes="Bold" Margin="0, 40, 0, 10" FontSize="Medium" TextColor="Black"/>
+            <Label Text=" Estamos localizados na Rua Bom Jesus de Pirapora, 140, Centro, Jundiaí, SP, CEP 13207-270, no campus central da Universidade Padre Anchieta. Entre em contato pelo telefone (11) 4527-3444 ou pelo e-mail clinicabichochiqu@gmail.com para agendar uma consulta ou saber mais sobre nossos serviços. " TextColor="Black"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

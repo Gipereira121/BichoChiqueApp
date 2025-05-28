@@ -1,0 +1,109 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BichoChiqueApp
+build_property.ProjectDir = C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/Cadastro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.Cadastro.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Cadastro.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Cadastro.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/Consultas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.Consultas.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Consultas.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Consultas.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/DadosCliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.DadosCliente.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DadosCliente.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DadosCliente.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Home.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Login.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/MeuPerfil.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.MeuPerfil.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MeuPerfil.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MeuPerfil.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/MeusClientes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.MeusClientes.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MeusClientes.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MeusClientes.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/MeusPets.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.MeusPets.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MeusPets.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MeusPets.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/NovoCliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.NovoCliente.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NovoCliente.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NovoCliente.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/QuemSomos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.QuemSomos.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\QuemSomos.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\QuemSomos.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

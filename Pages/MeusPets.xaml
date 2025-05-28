@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BichoChiqueApp.Pages.MeusPets"
+             Title=""
+             BackgroundColor="#fff">
+
+<ScrollView>
+    <VerticalStackLayout>
+        <Label 
+            Text="Meus Pets"
+            HorizontalOptions="Center"
+            TextColor="Black"
+            Padding="20"
+            FontSize="12"
+            FontAttributes="Bold"/>
+
+        <HorizontalStackLayout  BackgroundColor="#E7EDE4" Padding="10" Margin="30, 5, 30, 15" Spacing="10">
+            <Image Source="search.png"/>
+            <Label x:Name="SearchPets" Text="Pesquisar Pets" TextColor="#161616" FontAttributes="Bold"/>
+        </HorizontalStackLayout>
+
+            <FlexLayout Wrap="Wrap" JustifyContent="Center" AlignItems="Center" Direction="Row">
+                <Frame     
+                 BackgroundColor="#EFD8BD"
+                 Padding="15"
+                 WidthRequest="150"
+                 HeightRequest="170"
+                 CornerRadius="10"
+                 Margin="5"
+                 BorderColor="#EFD8BD">
+
+                    <StackLayout Spacing="10">
+                        <Label 
+                         Text="NOME PET" 
+                         TextColor="#D9661F" 
+                         FontAttributes="Bold"
+                         HorizontalTextAlignment="Center"/>
+
+                        <Image
+                         Source="dog.png"
+                         HeightRequest="100"
+                         WidthRequest="100"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame     
+                 BackgroundColor="#EFD8BD"
+                 Padding="15"
+                 WidthRequest="150"
+                 HeightRequest="170"
+                 CornerRadius="10"
+                 Margin="5"
+                 BorderColor="#EFD8BD">
+
+                    <StackLayout Spacing="10">
+                        <Label 
+                         Text="NOME PET" 
+                         TextColor="#D9661F" 
+                         FontAttributes="Bold"
+                         HorizontalTextAlignment="Center"/>
+
+                        <Image
+                         Source="cat.png"
+                         HeightRequest="100"
+                         WidthRequest="100"/>
+                    </StackLayout>
+                </Frame>
+
+
+                <Frame     
+                     BackgroundColor="#EFD8BD"
+                     Padding="15"
+                     WidthRequest="150"
+                     HeightRequest="170"
+                     CornerRadius="10"
+                     Margin="5"
+                     BorderColor="#EFD8BD">
+
+                    <StackLayout Spacing="10">
+                        <Label 
+                         Text="Inserir novo pet" 
+                         TextColor="#D9661F" 
+                         FontAttributes="Bold"
+                         HorizontalTextAlignment="Center"/>
+
+                        <Image
+                         Source="eiplus.png"
+                         HeightRequest="100"
+                         WidthRequest="100"/>
+                    </StackLayout>
+                </Frame>
+
+
+                <Frame     
+                     BackgroundColor="#FFF"
+                     Padding="15"
+                     WidthRequest="150"
+                     HeightRequest="170"
+                     CornerRadius="10"
+                     Margin="5"
+                     BorderColor="#FFF">
+                </Frame>
+            </FlexLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

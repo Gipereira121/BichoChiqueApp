@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BichoChiqueApp.Pages.Home"
+             Title=""
+             BackgroundColor="#FFFFFF">
+    
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+            <Grid ColumnSpacing="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Label Text="Meus Pets" TextColor="Black" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" />
+                <Label Text="Adicionar Pet" TextColor="#FF9920" FontAttributes="Bold" Grid.Row="0" Grid.Column="3"/>
+
+            </Grid>
+
+            <FlexLayout Wrap="Wrap" JustifyContent="Center" AlignItems="Center" Direction="Row">
+                <Frame     
+                    BackgroundColor="#EFD8BD"
+                    Padding="15"
+                    WidthRequest="150"
+                    HeightRequest="170"
+                    CornerRadius="10"
+                    Margin="10"
+                    BorderColor="#EFD8BD">
+
+                    <StackLayout Spacing="10">
+                        <Label 
+                            Text="NOME PET" 
+                            TextColor="#D9661F" 
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center"/>
+
+                        <Image
+                            Source="dog.png"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame     
+                    BackgroundColor="#EFD8BD"
+                    Padding="15"
+                    WidthRequest="150"
+                    HeightRequest="170"
+                    CornerRadius="10"
+                    Margin="10"
+                    BorderColor="#EFD8BD">
+
+                    <StackLayout Spacing="10">
+                        <Label 
+                            Text="NOME PET" 
+                            TextColor="#D9661F" 
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center"/>
+
+                        <Image
+                            Source="cat.png"
+                            HeightRequest="100"
+                            WidthRequest="100"/>
+                    </StackLayout>
+                </Frame>
+            </FlexLayout>
+
+            <Label Text="Nossos Serviços" TextColor="Black" FontAttributes="Bold" Grid.Row="0" Grid.Column="0"/>
+            <FlexLayout Wrap="Wrap" JustifyContent="Center" AlignItems="Center" Direction="Row">
+                <Frame     
+                    BackgroundColor="#EFD8BD"
+                    Padding="15"
+                    WidthRequest="150"
+                    HeightRequest="150"
+                    CornerRadius="10"
+                    Margin="10"
+                    BorderColor="#EFD8BD">
+
+                    <StackLayout Spacing="10">
+                        <Label 
+                            Text="Cadastrar" 
+                            TextColor="#D9661F" 
+                            FontAttributes="Bold"/>
+
+                        <Label
+                            Text="Realize seu cadastro de forma simples e rápida!"
+                            FontSize="10"
+                            TextColor="#D9661F"/>
+                    </StackLayout>
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnFrameCadastroTapped"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame     
+                    BackgroundColor="#EFD8BD"
+                    Padding="15"
+                    WidthRequest="150"
+                    HeightRequest="150"
+                    CornerRadius="10"
+                    Margin="10"
+                    BorderColor="#EFD8BD">
+
+                    <StackLayout Spacing="10">
+                        <Label 
+                            Text="Agendamento" 
+                            TextColor="#D9661F" 
+                            FontAttributes="Bold"/>
+
+                        <Label
+                            Text="Agende e gerencie todas as consultas em um só lugar."
+                            FontSize="10"
+                            TextColor="#D9661F"/>
+                    </StackLayout>
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnFrameAgendamentoTapped"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame     
+                    BackgroundColor="#EFD8BD"
+                    Padding="15"
+                    WidthRequest="150"
+                    HeightRequest="150"
+                    CornerRadius="10"
+                    Margin="10"
+                    BorderColor="#EFD8BD">
+
+                    <StackLayout Spacing="10">
+                        <Label 
+                            Text="Meus Clientes" 
+                            TextColor="#D9661F" 
+                            FontAttributes="Bold"/>
+
+                        <Label
+                            Text="Confira as informações dos seus clientes."
+                            FontSize="10"
+                            TextColor="#D9661F"/>
+                    </StackLayout>
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnFrameMeusClientesTapped"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame     
+                    BackgroundColor="#EFD8BD"
+                    Padding="15"
+                    WidthRequest="150"
+                    HeightRequest="150"
+                    CornerRadius="10"
+                    Margin="10"
+                    BorderColor="#EFD8BD">
+
+                    <StackLayout Spacing="10">
+                        <Label 
+                            Text="Sobre nós" 
+                            TextColor="#D9661F" 
+                            FontAttributes="Bold"/>
+
+                        <Label
+                            Text="Conheça melhor a Bicho Chique e tudo o que oferecemos para seu pet."
+                            FontSize="10"
+                            TextColor="#D9661F"/>
+                    </StackLayout>
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnFrameSobreNosTapped"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame     
+                    BackgroundColor="#EFD8BD"
+                    Padding="15"
+                    WidthRequest="150"
+                    HeightRequest="150"
+                    CornerRadius="10"
+                    Margin="10"
+                    BorderColor="#EFD8BD">
+
+                    <StackLayout Spacing="10">
+                        <Label 
+                            Text="Meu Perfil" 
+                            TextColor="#D9661F" 
+                            FontAttributes="Bold"/>
+
+                        <Label
+                            Text="Consulte e atualize seus dados sempre que precisar."
+                            FontSize="10"
+                            TextColor="#D9661F"/>
+                    </StackLayout>
+
+                </Frame>
+
+                <Frame     
+                    BackgroundColor="#FFFFFF"
+                    Padding="15"
+                    WidthRequest="150"
+                    HeightRequest="150"
+                    CornerRadius="10"
+                    Margin="10"
+                    BorderColor="#FFFFFF">
+
+                    <StackLayout Spacing="10">
+                        <Label 
+                            Text="" 
+                            TextColor="#FFFFFF" 
+                            FontAttributes="Bold"/>
+
+                        <Label
+                            Text=""
+                            FontSize="10"
+                            TextColor="#FFFFFF"/>
+                    </StackLayout>
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </FlexLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
