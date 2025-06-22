@@ -241,6 +241,9 @@
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\insertplus.scale-100.png">
       <PackagePath>insertplus.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
+      <PackagePath>logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa.scale-100.png">
       <PackagePath>lupa.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -258,6 +261,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-100.png">
       <PackagePath>search.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\species.scale-100.png">
+      <PackagePath>species.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BichoChiqueApp.deps.json">
       <PackagePath>BichoChiqueApp.deps.json</PackagePath>
@@ -367,6 +373,18 @@
     <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\sqlite-net-sqlcipher\1.9.172\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\sqlitepclraw.bundle_e_sqlcipher\2.1.2\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\sqlitepclraw.core\2.1.2\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\sqlitepclraw.provider.e_sqlcipher\2.1.2\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlcipher.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlcipher.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\microsoft.maui.controls.core\8.0.100\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
     </AppxPackagedFile>
@@ -474,6 +492,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\sqlitepclraw.lib.e_sqlcipher\2.1.2\runtimes\win-x64\native\e_sqlcipher.dll">
+      <PackagePath>e_sqlcipher.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

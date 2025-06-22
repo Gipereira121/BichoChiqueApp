@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BichoChiqueApp.Pages.Editar.EditEspecie"
+             Title="Editar Especie">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="30"
+            Padding="30">
+
+            <Label
+                x:Name="lblIdEspecie"
+                Text="ID"
+                TextColor="Black"
+                FontSize="18"
+                TranslationY="30" />
+            
+            <Border 
+                StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <Entry
+                    x:Name="etrIdEspecie"
+                    IsEnabled="False"
+                    Text="{Binding espId}"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"/>
+            </Border>
+
+            <Label
+                x:Name="lblEspecie"
+                Text="Especie"
+                TextColor="Black"
+                FontSize="18"
+                TranslationY="30" />
+            
+            <Border 
+                StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <Entry
+                x:Name="etrEspecie"
+                IsEnabled="True"
+                Text="{Binding marNome}"
+                TextColor="Black"
+                BackgroundColor="Transparent"
+                HeightRequest="50"/>
+            </Border>
+
+            <Label
+                x:Name="lblOBSEspecie"
+                Text="Observações"
+                TextColor="Black"
+                FontSize="18"
+                TranslationY="30"/>
+
+            <Border
+                StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <Editor
+                x:Name="edtOBSEspecie"
+                IsEnabled="True"
+                TextColor="Black"
+                Text="{Binding marObs}"
+                BackgroundColor="Transparent"
+                HeightRequest="100"/>
+            </Border>
+
+            <Button
+                x:Name="btnEdtEspecie"
+                Text="Editar"
+                TextColor="White"
+                FontAttributes="Bold"
+                BackgroundColor="#FF9920"
+                Clicked="btnEdtEspecieOnClicked"
+                TranslationY="15"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

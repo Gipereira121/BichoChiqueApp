@@ -16,12 +16,12 @@
                 <Label
                     Text="Crie sua conta para acessar nossos serviços, acompanhar suas solicitações e gerenciar seus dados. Preencha seus dados e comece agora!" TextColor="Black" FontSize="12"/>
 
-                    <Entry x:Name="etrNome" Placeholder="Nome completo" TextColor="black" Background="#FFDDB5" Margin="10, 3, 10, 0"/>
-                    <Entry x:Name="etrCPF" Placeholder="CPF" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
-                    <Entry x:Name="etrEmail" Placeholder="Email" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
-                    <Entry x:Name="etrSenha" Placeholder="Senha" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
-                    <Entry x:Name="etrTelefone" Placeholder="Telefone" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
-                    <Entry x:Name="etrEndereco" Placeholder="Endereço" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
+            <Entry x:Name="etrNome" Placeholder="Nome completo" PlaceholderColor="Black" TextColor="black" Background="#FFDDB5" Margin="10, 3, 10, 0"/>
+            <Entry x:Name="etrCPF" Placeholder="CPF" PlaceholderColor="Black" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
+            <Entry x:Name="etrEmail" Placeholder="Email" PlaceholderColor="Black" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
+            <Entry x:Name="etrSenha" Placeholder="Senha" PlaceholderColor="Black" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
+            <Entry x:Name="etrTelefone" Placeholder="Telefone" PlaceholderColor="Black" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
+            <Entry x:Name="etrEndereco" Placeholder="Endereço" PlaceholderColor="Black" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
                     <Grid ColumnSpacing="10">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition />
@@ -31,17 +31,17 @@
                             <RowDefinition />
                         <RowDefinition />
                     </Grid.RowDefinitions>
-                    <Entry x:Name="etrNumero" Placeholder="Numero" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0" Grid.Row="0" Grid.Column="0" />
-                    <Entry x:Name="etrCEP" Placeholder="CEP" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0" Grid.Row="0" Grid.Column="1"/>
+                <Entry x:Name="etrNumero" Placeholder="Numero" PlaceholderColor="Black" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0" Grid.Row="0" Grid.Column="0" />
+                <Entry x:Name="etrCEP" Placeholder="CEP" PlaceholderColor="Black" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0" Grid.Row="0" Grid.Column="1"/>
                     </Grid>
-                <Entry x:Name="etrBairro" Placeholder="Bairro" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
+            <Entry x:Name="etrBairro" Placeholder="Bairro" PlaceholderColor="Black" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
 
             <HorizontalStackLayout  Margin="10, 0, 10, 0">
                 <CheckBox x:Name="checkNotificar" IsChecked="False" Color="Black"/>
-                <Label Text="Li e aceito os  Termos de Uso e Responsabilidade" VerticalOptions="Center" TextColor="black"/>
+                <Label Text="Li e aceito os  Termos de Uso e Responsabilidade" VerticalOptions="Center" TextColor="black" FontSize="10" FontAttributes="Bold"/>
             </HorizontalStackLayout>
 
-            <Button x:Name="btnCadastro" Text="Cadastrar" FontAttributes="Bold" TextColor="White" BackgroundColor="#FF9920" Margin="10, 0, 10, 0" Clicked="btnCadastro_Clicked"/>
+            <Button x:Name="btnCadastro" Text="Cadastrar" FontAttributes="Bold" TextColor="White" BackgroundColor="#FF9920" Margin="10, 0, 10, 0" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

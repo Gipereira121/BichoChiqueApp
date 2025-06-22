@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BichoChiqueApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a232c85ffabce222f86192d83de7cb671851639d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+eb6e1bdda8cbc287fe2a874d35919c5a6f2a0f9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BichoChiqueApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BichoChiqueApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

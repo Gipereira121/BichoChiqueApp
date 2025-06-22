@@ -9,6 +9,7 @@ public partial class Login : ContentPage
 
     private async void btnLogin_Clicked(object sender, EventArgs e)
     {
+        await DisplayAlert("Login realizado", "Bem-vindo de volta!", "Ok");
         await Navigation.PushAsync(new Home());
     }
 }

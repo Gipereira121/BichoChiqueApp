@@ -6,7 +6,7 @@
              BackgroundColor="#FFFFFF">
     
     <ScrollView>
-        <VerticalStackLayout Padding="30" Spacing="20">
+        <VerticalStackLayout Padding="30" Spacing="10">
             <Grid ColumnSpacing="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition />
@@ -18,8 +18,8 @@
                     <RowDefinition />
                 </Grid.RowDefinitions>
 
-                <Label Text="Meus Pets" TextColor="Black" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" />
-                <Label Text="Adicionar Pet" TextColor="#FF9920" FontAttributes="Bold" Grid.Row="0" Grid.Column="3"/>
+                <Label Text="Minhas Especies" TextColor="Black" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" />
+                <Label Text="Adicionar Especie" TextColor="#FF9920" FontAttributes="Bold" Grid.Row="0" Grid.Column="3"/>
 
             </Grid>
 
@@ -27,22 +27,22 @@
                 <Frame     
                     BackgroundColor="#EFD8BD"
                     Padding="15"
-                    WidthRequest="150"
-                    HeightRequest="170"
+                    WidthRequest="120"
+                    HeightRequest="150"
                     CornerRadius="10"
                     Margin="10"
                     BorderColor="#EFD8BD">
 
                     <StackLayout Spacing="10">
                         <Label 
-                            Text="NOME PET" 
+                            Text="ESPECIE 1" 
                             TextColor="#D9661F" 
                             FontAttributes="Bold"
                             HorizontalTextAlignment="Center"/>
 
                         <Image
                             Source="dog.png"
-                            HeightRequest="100"
+                            HeightRequest="80"
                             WidthRequest="100"/>
                     </StackLayout>
                 </Frame>
@@ -50,22 +50,22 @@
                 <Frame     
                     BackgroundColor="#EFD8BD"
                     Padding="15"
-                    WidthRequest="150"
-                    HeightRequest="170"
+                    WidthRequest="120"
+                    HeightRequest="150"
                     CornerRadius="10"
                     Margin="10"
                     BorderColor="#EFD8BD">
 
                     <StackLayout Spacing="10">
                         <Label 
-                            Text="NOME PET" 
+                            Text="ESPECIE 2" 
                             TextColor="#D9661F" 
                             FontAttributes="Bold"
                             HorizontalTextAlignment="Center"/>
 
                         <Image
                             Source="cat.png"
-                            HeightRequest="100"
+                            HeightRequest="80"
                             WidthRequest="100"/>
                     </StackLayout>
                 </Frame>
@@ -75,9 +75,9 @@
             <FlexLayout Wrap="Wrap" JustifyContent="Center" AlignItems="Center" Direction="Row">
                 <Frame     
                     BackgroundColor="#EFD8BD"
-                    Padding="15"
-                    WidthRequest="150"
-                    HeightRequest="150"
+                    Padding="10"
+                    WidthRequest="130"
+                    HeightRequest="130"
                     CornerRadius="10"
                     Margin="10"
                     BorderColor="#EFD8BD">
@@ -101,35 +101,9 @@
 
                 <Frame     
                     BackgroundColor="#EFD8BD"
-                    Padding="15"
-                    WidthRequest="150"
-                    HeightRequest="150"
-                    CornerRadius="10"
-                    Margin="10"
-                    BorderColor="#EFD8BD">
-
-                    <StackLayout Spacing="10">
-                        <Label 
-                            Text="Agendamento" 
-                            TextColor="#D9661F" 
-                            FontAttributes="Bold"/>
-
-                        <Label
-                            Text="Agende e gerencie todas as consultas em um só lugar."
-                            FontSize="10"
-                            TextColor="#D9661F"/>
-                    </StackLayout>
-
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnFrameAgendamentoTapped"/>
-                    </Frame.GestureRecognizers>
-                </Frame>
-
-                <Frame     
-                    BackgroundColor="#EFD8BD"
-                    Padding="15"
-                    WidthRequest="150"
-                    HeightRequest="150"
+                    Padding="10"
+                    WidthRequest="130"
+                    HeightRequest="130"
                     CornerRadius="10"
                     Margin="10"
                     BorderColor="#EFD8BD">
@@ -146,16 +120,13 @@
                             TextColor="#D9661F"/>
                     </StackLayout>
 
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnFrameMeusClientesTapped"/>
-                    </Frame.GestureRecognizers>
                 </Frame>
 
                 <Frame     
                     BackgroundColor="#EFD8BD"
-                    Padding="15"
-                    WidthRequest="150"
-                    HeightRequest="150"
+                    Padding="10"
+                    WidthRequest="130"
+                    HeightRequest="130"
                     CornerRadius="10"
                     Margin="10"
                     BorderColor="#EFD8BD">
@@ -179,9 +150,9 @@
 
                 <Frame     
                     BackgroundColor="#EFD8BD"
-                    Padding="15"
-                    WidthRequest="150"
-                    HeightRequest="150"
+                    Padding="10"
+                    WidthRequest="130"
+                    HeightRequest="130"
                     CornerRadius="10"
                     Margin="10"
                     BorderColor="#EFD8BD">
@@ -199,33 +170,15 @@
                     </StackLayout>
 
                 </Frame>
-
-                <Frame     
-                    BackgroundColor="#FFFFFF"
-                    Padding="15"
-                    WidthRequest="150"
-                    HeightRequest="150"
-                    CornerRadius="10"
-                    Margin="10"
-                    BorderColor="#FFFFFF">
-
-                    <StackLayout Spacing="10">
-                        <Label 
-                            Text="" 
-                            TextColor="#FFFFFF" 
-                            FontAttributes="Bold"/>
-
-                        <Label
-                            Text=""
-                            FontSize="10"
-                            TextColor="#FFFFFF"/>
-                    </StackLayout>
-
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer/>
-                    </Frame.GestureRecognizers>
-                </Frame>
             </FlexLayout>
+
+            <Button 
+                Text="Login"
+                TextColor="White"
+                FontAttributes="Bold"
+                BackgroundColor="#FF9920"
+                Margin="10"
+                Clicked="Button_Clicked"/>
 
         </VerticalStackLayout>
     </ScrollView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BichoChiqueApp.Pages.Adicionar.addEspecie"
+             Title="">
+   
+        <ScrollView>
+            <VerticalStackLayout
+                Spacing="30"
+                Padding="30">
+
+                <Image
+                    Source="eiplus.png"
+                    WidthRequest="110"/>
+
+                <Label 
+                    Text="NOVA ESPECIE"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    FontSize="18"
+                    TextColor="#D9661F"
+                    FontAttributes="Bold"/>
+
+                <Label
+                    x:Name="lblEspecie"
+                    Text="Especie"
+                    TextColor="Black"
+                    FontSize="18"
+                    TranslationY="30"
+                    FontFamily=""/>
+                    <Border StrokeShape="RoundRectangle 10, 10, 10, 10">
+                        <Entry
+                            x:Name="etrEspecie"
+                            BackgroundColor="Transparent"
+                            HeightRequest="50"/>
+                    </Border>
+
+                <Label
+                    x:Name="lblOBSEspecie"
+                    Text="Observações"
+                    TextColor="Black"
+                    FontSize="18"
+                    TranslationY="30"/>
+
+                <Border StrokeShape="RoundRectangle 10, 10, 10, 10">
+                    <Editor
+                        x:Name="edtOBSEspecie"
+                        TextColor="White"
+                        BackgroundColor="Transparent"
+                        HeightRequest="100"/>
+                </Border>
+
+                <Button
+                        x:Name="btnAddEspecie"
+                        Text="Adicionar"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        BackgroundColor="#FF9920"
+                        Clicked="btnAddEspecieOnClicked"
+                        TranslationY="15"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+</ContentPage>

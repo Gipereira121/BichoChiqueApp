@@ -57,6 +57,23 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Pages\NovaPasta\**" />
+	  <Compile Remove="Pages\NovaPasta\**" />
+	  <EmbeddedResource Remove="Pages\NovaPasta\**" />
+	  <MauiCss Remove="Pages\NovaPasta\**" />
+	  <MauiXaml Remove="Pages\NovaPasta\**" />
+	  <None Remove="Pages\NovaPasta\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Pages\MeuPerfil.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Remove="Pages\MeuPerfil.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
@@ -64,19 +81,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Pages\MeuPerfil.xaml.cs">
-	    <DependentUpon>MeuPerfil.xaml</DependentUpon>
+	  <Compile Update="Pages\MeusPets.xaml.cs">
+	    <DependentUpon>MeusPets.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Pages\Adicionar\addEspecie.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Cadastro.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Consultas.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\DadosCliente.xaml">
+	  <MauiXaml Update="Pages\Editar\EditEspecie.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Home.xaml">
@@ -91,15 +108,13 @@
 	  <MauiXaml Update="Pages\MeusPets.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\MeuPerfil.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\NovoCliente.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Pages\QuemSomos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="BancoDados\" />
 	</ItemGroup>
 
 </Project>

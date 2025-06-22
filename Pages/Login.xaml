@@ -8,15 +8,15 @@
     <ScrollView>
         <VerticalStackLayout Padding="30" Spacing="20">
             <Label 
-                   Text="Cadastro"
+                   Text="Login"
                    FontSize="Large"
                    FontAttributes="Bold"
                    TextColor="Black"/>
 
             <Label Text="Acesse sua conta para utilizar nossos serviços, acompanhar suas solicitações e gerenciar seus dados. Insira suas informações de login e continue agora!" TextColor="Black" FontSize="12"/>
 
-            <Entry x:Name="etrEmail" Placeholder="Email" TextColor="black" Background="#FFDDB5" Margin="10, 250, 10, 0"/>
-            <Entry x:Name="etrSenha" Placeholder="Senha" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
+            <Entry x:Name="etrEmail" Placeholder="Email" PlaceholderColor="Black" TextColor="black" Background="#FFDDB5" Margin="10, 250, 10, 0"/>
+            <Entry x:Name="etrSenha" Placeholder="Senha" PlaceholderColor="Black" TextColor="black" Background="#FFDDB5" Margin="10, 0, 10, 0"/>
 
             <Button x:Name="btnLogin" Text="Logar" FontAttributes="Bold" TextColor="White" BackgroundColor="#FF9920" Margin="10, 0, 10, 0" Clicked="btnLogin_Clicked"/>
         </VerticalStackLayout>

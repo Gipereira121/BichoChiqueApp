@@ -40,23 +40,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.MainPage.xa
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/Adicionar/addEspecie.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.Adicionar.addEspecie.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Adicionar\addEspecie.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Adicionar\addEspecie.xaml
+
 [C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/Cadastro.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.Cadastro.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Cadastro.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Cadastro.xaml
 
-[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/Consultas.xaml]
+[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/Editar/EditEspecie.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.Consultas.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Consultas.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Consultas.xaml
-
-[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/DadosCliente.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.DadosCliente.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\DadosCliente.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\DadosCliente.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.Editar.EditEspecie.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Editar\EditEspecie.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Editar\EditEspecie.xaml
 
 [C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/Home.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -70,29 +70,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.Login
 build_metadata.AdditionalFiles.TargetPath = Pages\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Login.xaml
 
-[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/MeuPerfil.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.MeuPerfil.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\MeuPerfil.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\MeuPerfil.xaml
-
-[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/MeusClientes.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.MeusClientes.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\MeusClientes.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\MeusClientes.xaml
-
 [C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/MeusPets.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.MeusPets.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\MeusPets.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\MeusPets.xaml
-
-[C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/NovoCliente.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BichoChiqueApp.Pages.NovoCliente.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\NovoCliente.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\NovoCliente.xaml
 
 [C:/Users/PC/source/repos/AppBichoChique/BichoChiqueApp/Pages/QuemSomos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

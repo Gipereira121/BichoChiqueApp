@@ -1,56 +1,52 @@
-﻿using System;
+﻿using BichoChiqueApp.Models;
+using Microsoft.Maui.Controls.PlatformConfiguration;
+using SQLite;
+using System;
 using System.Collections.Generic;
-using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-using SQLite;
-using BichoChiqueApp.Models;
 
 namespace BichoChiqueApp.Helpers
 {
     public class SQLiteDatabaseHelpers
     {
-        readonly SQLiteAsyncConnection _connection;
-
+        readonly SQLiteAsyncConnection _conn;
         public SQLiteDatabaseHelpers(string path)
         {
-            _connection = new SQLiteAsyncConnection(path);
-            _connection.CreateTableAsync<Cliente>().Wait();
-        }
-        public Task<int> Insert(Cliente p)
-        {
-            return _connection.InsertAsync(p);
-        }
-
-        public Task<int> Update(Cliente p)
-        {
-            return _connection.ExecuteAsync("UPDATE Cliente SET nomeCliente=? WHERE idCliente=?", p.nomeCliente, p.idCliente);
-        }
-        public Task<int> Delete(int id)
-        {
-            return _connection.ExecuteAsync("DELETE FROM Cliente WHERE idCliente=?", id);
+            _conn = new SQLiteAsyncConnection(path);
+            // _conn.CreateTableAsync<BichoChiqueApp.Models.Modelo>().Wait();
+            _conn.CreateTableAsync<Especies>().Wait();
+            // _conn.CreateTableAsync<Veiculo>().Wait();
+            // _conn.CreateTableAsync<Usuario>().Wait();
         }
 
-        public Task<List<Cliente>> GetAll()
+        //Especies
+        public Task<int> InsertEspecie(Especies p)
         {
-            return _connection.Table<Cliente>().ToListAsync();
+            return _conn.InsertAsync(p);
         }
 
-        public Task<List<Cliente>> SearchCliente(string p)
+        public Task<List<Especies>> UpdateEspecie(Especies p)
         {
-            string sql = "SELECT * FROM Cliente WHERE nomeCliente LIKE ?";
-            return _connection.QueryAsync<Cliente>(sql, "%" + p + "%");
-        }
+            string sql = "UPDATE Especies SET espNome=?, espObs=? WHERE espId=?";
 
-        public Task<List<Cliente>> Search(string p)
+            return _conn.QueryAsync<Especies>(sql, p.espNome, p.espObs, p.espId);
+        }
+        public Task<int> DeleteEspecie(int p)
         {
-            string sql = "SELECT * FROM Cliente WHERE nomeCliente LIKE ?";
-            return _connection.QueryAsync<Cliente>(sql, "%" + p + "%");
+            return _conn.Table<Especies>().DeleteAsync(i => i.espId == p);
         }
+        public Task<List<Especies>> GetAllEspecie()
+        {
+            return _conn.Table<Especies>().ToListAsync();
+        }
+        public Task<List<Especies>> SearchEspecie(string p)
+        {
+            string sql = "SELECT * FROM Especies WHERE espNome LIKE '%" + p + "%'";
 
+            return _conn.QueryAsync<Especies>(sql);
+        }
 
     }
-
 }

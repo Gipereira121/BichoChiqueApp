@@ -7,11 +7,12 @@
     Title="BichoChiqueApp"
     Shell.FlyoutBehavior="Flyout"
     Shell.TabBarIsVisible="True"
-    Shell.TabBarBackgroundColor="#132A13"
-    Shell.TabBarTitleColor="White"
     Shell.BackgroundColor="#132A13"
     Shell.FlyoutBackgroundColor="#132A13"
+    Shell.TabBarBackgroundColor="#132A13"
+    Shell.TabBarUnselectedColor="White"
     Shell.TitleColor="White"
+    Shell.TabBarForegroundColor="White"
     Shell.DisabledColor="White"
     Shell.ForegroundColor="White"
     Shell.UnselectedColor="White">
@@ -30,7 +31,6 @@
         </ScrollView>
     </Shell.FlyoutHeader>
 
-
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent
         Icon="home.png"
@@ -38,50 +38,53 @@
         ContentTemplate="{DataTemplate local:Pages.Home}"
         Route="Pages.Home" />
 
+        <!--
         <ShellContent
-        Icon="plus.png"
-        Title="Cadastrar"
-        ContentTemplate="{DataTemplate local:Pages.Cadastro}"
-        Route="Cadastro" />
-
-        <ShellContent
-        Icon="consultas.png"
-        Title="Consultas"
-        ContentTemplate="{DataTemplate local:Pages.Consultas}"
-        Route="Consultas" />
+        Icon="animal.png"
+        Title="Animais"
+        ContentTemplate="{DataTemplate local:Pages.}"
+        Route="Pages.Animais" /> -->
 
         <ShellContent
         Icon="pets.png"
-        Title="Meus Pets"
+        Title="Especies"
         ContentTemplate="{DataTemplate local:Pages.MeusPets}"
-        Route="Pages.MeuPets" />
+        Route="Pages.MeusPets" /> 
 
-        <!-- <ShellContent
-        Icon="profile.png"
-        Title="Meus Perfil"
-        ContentTemplate="{DataTemplate local:Pages.MeuPerfil}"
-        Route="Pages.MeuPerfil" /> -->
-        
+        <!-- 
         <ShellContent
-        Icon="clientes.png"
-        Title="Meus Clientes"
-        ContentTemplate="{DataTemplate local:Pages.MeusClientes}"
-        Route="Pages.MeuClientes" />
+        Icon="client.png"
+        Title="Clientes"
+        ContentTemplate="{DataTemplate local:Pages.}"
+        Route="Pages.Clientes" /> -->
 
+        <!-- 
+        <ShellContent
+        Icon="user.png"
+        Title="Usuarios"
+        ContentTemplate="{DataTemplate local:Pages.}"
+        Route="Pages.Usuarios" /> -->
+  
         <ShellContent
         Icon="aboutus.png"
         Title="Sobre Nós"
         ContentTemplate="{DataTemplate local:Pages.QuemSomos}"
         Route="Pages.QuemSomos" />
 
+        <ShellContent
+        Icon="plus.png"
+        Title="Cadastrar"
+        ContentTemplate="{DataTemplate local:Pages.Cadastro}"
+        Route="Cadastro" />
+
     </FlyoutItem>
 
     <Shell.FlyoutFooter>
-
         <Label
 			Text="© Giovana Pereira Gustavo  |   RA: 2400539"
             TextColor="White"
             Margin="0, 0, 0, 40"
+            FontSize="10"
             HorizontalTextAlignment="Center"/>
 
     </Shell.FlyoutFooter>

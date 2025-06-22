@@ -13,19 +13,15 @@ public partial class Home : ContentPage
         await Navigation.PushAsync(new Cadastro());
     }
 
-    private async void OnFrameAgendamentoTapped(object sender, EventArgs e)
-    {
-        await Navigation.PushAsync(new Consultas());
-    }
+ 
 
-    private async void OnFrameMeusClientesTapped(object sender, EventArgs e)
-    {
-        await Navigation.PushAsync(new MeusClientes());
-    }
     private async void OnFrameSobreNosTapped(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new QuemSomos());
     }
 
-
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Login());
+    }
 }
