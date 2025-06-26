@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\pages\\animal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:pages\\animal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\pages\\meuspets.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:pages\\meuspets.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\pages\\animal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:pages\\animal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\pages\\meuspets.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:pages\\meuspets.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\pages\\adicionar\\addanimal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:pages\\adicionar\\addanimal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\pages\\editar\\editespecie.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:pages\\editar\\editespecie.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\pages\\adicionar\\addanimal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:pages\\adicionar\\addanimal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\pages\\adicionar\\addespecie.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:pages\\adicionar\\addespecie.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\pages\\adicionar\\addespecie.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:pages\\adicionar\\addespecie.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|c:\\users\\pc\\source\\repos\\appbichochique\\bichochiqueapp\\helpers\\sqlitedatabasehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E52F6AD-FBB6-4A52-ADA8-A66A4C0485A9}|BichoChiqueApp.csproj|solutionrelative:helpers\\sqlitedatabasehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-22T19:46:01.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-22T19:45:58.87Z",
+              "DocumentIndex": 5,
+              "Title": "SQLiteDatabaseHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Helpers\\SQLiteDatabaseHelpers.cs",
+              "RelativeDocumentMoniker": "Helpers\\SQLiteDatabaseHelpers.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Helpers\\SQLiteDatabaseHelpers.cs",
+              "RelativeToolTip": "Helpers\\SQLiteDatabaseHelpers.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwF8AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:58:20.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MeusPets.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\MeusPets.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\MeusPets.xaml.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\MeusPets.xaml.cs",
-              "RelativeToolTip": "Pages\\MeusPets.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwFYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T19:37:31.464Z",
+              "Title": "Animal.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Animal.xaml",
+              "RelativeDocumentMoniker": "Pages\\Animal.xaml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Animal.xaml",
+              "RelativeToolTip": "Pages\\Animal.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T20:09:40.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MeusPets.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\MeusPets.xaml",
-              "RelativeDocumentMoniker": "Pages\\MeusPets.xaml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\MeusPets.xaml",
-              "RelativeToolTip": "Pages\\MeusPets.xaml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-22T19:21:51.455Z",
+              "DocumentIndex": 1,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Models\\Animal.cs",
+              "RelativeDocumentMoniker": "Models\\Animal.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Models\\Animal.cs",
+              "RelativeToolTip": "Models\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:02:20.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EditEspecie.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Editar\\EditEspecie.xaml",
-              "RelativeDocumentMoniker": "Pages\\Editar\\EditEspecie.xaml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Editar\\EditEspecie.xaml",
-              "RelativeToolTip": "Pages\\Editar\\EditEspecie.xaml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "Title": "addAnimal.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Adicionar\\addAnimal.xaml",
+              "RelativeDocumentMoniker": "Pages\\Adicionar\\addAnimal.xaml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Adicionar\\addAnimal.xaml",
+              "RelativeToolTip": "Pages\\Adicionar\\addAnimal.xaml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAHwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-22T18:38:41.507Z",
+              "WhenOpened": "2025-06-26T02:24:25.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "addEspecie.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Adicionar\\addEspecie.xaml",
-              "RelativeDocumentMoniker": "Pages\\Adicionar\\addEspecie.xaml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Adicionar\\addEspecie.xaml",
-              "RelativeToolTip": "Pages\\Adicionar\\addEspecie.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-22T18:38:18.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "addEspecie.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Adicionar\\addEspecie.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Adicionar\\addEspecie.xaml.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Adicionar\\addEspecie.xaml.cs",
-              "RelativeToolTip": "Pages\\Adicionar\\addEspecie.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "addAnimal.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Adicionar\\addAnimal.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Adicionar\\addAnimal.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Adicionar\\addAnimal.xaml.cs",
+              "RelativeToolTip": "Pages\\Adicionar\\addAnimal.xaml.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwFwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T18:38:34.05Z"
+              "WhenOpened": "2025-06-26T02:36:59.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Animal.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Animal.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Animal.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppBichoChique\\BichoChiqueApp\\Pages\\Animal.xaml.cs",
+              "RelativeToolTip": "Pages\\Animal.xaml.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowE8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:43:05.85Z",
+              "EditorCaption": ""
             }
           ]
         }

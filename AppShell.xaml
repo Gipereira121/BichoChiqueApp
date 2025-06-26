@@ -38,25 +38,23 @@
         ContentTemplate="{DataTemplate local:Pages.Home}"
         Route="Pages.Home" />
 
-        <!--
         <ShellContent
         Icon="animal.png"
         Title="Animais"
-        ContentTemplate="{DataTemplate local:Pages.}"
-        Route="Pages.Animais" /> -->
+        ContentTemplate="{DataTemplate local:Pages.Animal}"
+        Route="Pages.Animal" />
 
         <ShellContent
         Icon="pets.png"
         Title="Especies"
         ContentTemplate="{DataTemplate local:Pages.MeusPets}"
-        Route="Pages.MeusPets" /> 
+        Route="Pages.MeusPets" />
 
-        <!-- 
         <ShellContent
         Icon="client.png"
         Title="Clientes"
-        ContentTemplate="{DataTemplate local:Pages.}"
-        Route="Pages.Clientes" /> -->
+        ContentTemplate="{DataTemplate local:Pages.Clientes}"
+        Route="Pages.Clientes" />
 
         <!-- 
         <ShellContent

@@ -39,7 +39,7 @@
                 <Entry
                 x:Name="etrEspecie"
                 IsEnabled="True"
-                Text="{Binding marNome}"
+                Text="{Binding espNome}"
                 TextColor="Black"
                 BackgroundColor="Transparent"
                 HeightRequest="50"/>
@@ -58,7 +58,7 @@
                 x:Name="edtOBSEspecie"
                 IsEnabled="True"
                 TextColor="Black"
-                Text="{Binding marObs}"
+                Text="{Binding espObs}"
                 BackgroundColor="Transparent"
                 HeightRequest="100"/>
             </Border>

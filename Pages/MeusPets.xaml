@@ -24,15 +24,14 @@
             FontAttributes="Bold"/>
 
             <SearchBar
-               x:Name="SearchBarEspecie"
-               FlowDirection="LeftToRight"
-               TextColor="#161616"
-               Placeholder="Pesquisar..."
-               PlaceholderColor="#161616"
-               FontAttributes="Bold"
-               BackgroundColor="#E7EDE4"
-               Margin="30, 5, 30, 15"
-             />
+                     FlowDirection="LeftToRight"
+                     x:Name="SearchBarEspecie"
+                     TextColor="#161616"
+                     Placeholder="Pesquisar...."
+                     PlaceholderColor="#161616"
+                     BackgroundColor="#E7EDE4"
+                     TextChanged="txtSearchTextChanged"
+                     Margin="30, 5, 30, 15"/>
 
             <Button
                 x:Name="btnAddEspecie"

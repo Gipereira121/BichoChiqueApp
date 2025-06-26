@@ -26,8 +26,7 @@
                     Text="Especie"
                     TextColor="Black"
                     FontSize="18"
-                    TranslationY="30"
-                    FontFamily=""/>
+                    TranslationY="30"/>
                     <Border StrokeShape="RoundRectangle 10, 10, 10, 10">
                         <Entry
                             x:Name="etrEspecie"
@@ -45,7 +44,7 @@
                 <Border StrokeShape="RoundRectangle 10, 10, 10, 10">
                     <Editor
                         x:Name="edtOBSEspecie"
-                        TextColor="White"
+                        TextColor="Black"
                         BackgroundColor="Transparent"
                         HeightRequest="100"/>
                 </Border>

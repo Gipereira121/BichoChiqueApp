@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BichoChiqueApp.Pages.Adicionar.addCliente"
+             Title="addCliente">
+
+    <ScrollView>
+        <VerticalStackLayout
+        Spacing="30"
+        Padding="30">
+
+            <Image
+                    Source="eiplus.png"
+                    WidthRequest="110"/>
+
+            <Label 
+                    Text="NOVO CLIENTE"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    FontSize="18"
+                    TextColor="#D9661F"
+                    FontAttributes="Bold"/>
+
+            <Label
+                x:Name="lblCliente"
+                Text="Nome"
+                TextColor="Black"
+                FontSize="18"
+                TranslationY="30"/>
+            
+                <Border StrokeShape="RoundRectangle 10, 10, 10, 10">
+                    <Entry
+                    x:Name="etrCliente"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"/>
+                </Border>
+
+            <Label 
+                Text="CPF" 
+                TextColor="Black"
+                FontSize="18"
+                TranslationY="30"/>
+
+            <Border
+            StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <Entry
+                x:Name="etrCPF"
+                TextColor="Black"
+                HeightRequest="50"/>
+            </Border>
+
+            <Label 
+                x:Name="lblEmialCliente"
+                Text="Email" 
+                TextColor="Black"
+                FontSize="18"
+                TranslationY="30"/>
+            
+            <Border
+            StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <Entry
+                x:Name="etrEmail"
+                TextColor="Black"
+                HeightRequest="50"/>
+            </Border>
+
+
+            <Label
+                Text="Data de Cadastro" 
+                TextColor="Black"
+                FontSize="18"
+                TranslationY="30"/>
+            
+            <Border
+                StrokeShape="RoundRectangle 10, 10, 10, 10">
+                    <Entry
+                    x:Name="etrDataCadastro"
+                    TextColor="Black"
+                    HeightRequest="50"
+                    IsEnabled="True"/>
+            </Border>
+            
+
+            <Label
+            x:Name="lblOBSCliente"
+            Text="Observações"
+            TextColor="Black"
+            FontSize="18"
+            TranslationY="30"/>
+
+            <Border
+            StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <Editor
+                x:Name="edtOBSCliente"
+                TextColor="Black"
+                HeightRequest="100"/>
+            </Border>
+
+            <Button
+                x:Name="btnAddCliente"
+                Text="Adicionar"
+                TextColor="White"
+                FontAttributes="Bold"
+                BackgroundColor="#FF9920"
+                TranslationY="15"
+                Clicked="btnAddClienteOnClicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

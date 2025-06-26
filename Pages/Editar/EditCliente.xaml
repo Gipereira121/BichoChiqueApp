@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BichoChiqueApp.Pages.Editar.EditCliente"
+             Title="Editar Cliente">
+
+    <ScrollView>
+        <VerticalStackLayout 
+            Spacing="30" 
+            Padding="30">
+            
+            <Label 
+                x:Name="lblIdCliente"
+                Text="ID"
+                TextColor="Black"
+                FontSize="18"
+                TranslationY="30"/>
+
+            <Border
+                StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <Entry
+                    x:Name="etrIdCliente"
+                    IsEnabled="False"
+                    Text="{Binding cliId}"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"/>
+            </Border>
+
+            <Label 
+                x:Name="lblCliente"
+                Text="Nome"
+                TextColor="Black"
+                FontSize="18"
+                TranslationY="30"/>
+
+            <Border
+                StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <Entry
+                    x:Name="etrCliente"
+                    IsEnabled="True"
+                    Text="{Binding cliNome}"
+                    BackgroundColor="Transparent"
+                    TextColor="Black"
+                    HeightRequest="50"/>
+            </Border>
+
+            <Label 
+                x:Name="lblCPFCliente"
+                Text="CPF"
+                TextColor="Black"
+                FontSize="18"
+                TranslationY="30"/>
+
+            <Border
+                StrokeShape="RoundRectangle 10, 10, 10, 10">
+                    <Entry
+                    x:Name="etrCPF"
+                    IsEnabled="True"
+                    Text="{Binding cliCPF}"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"/>
+            </Border>
+
+            <Label 
+                x:Name="lblEmailCliente"
+                Text="E-mail"
+                TextColor="Black"
+                FontSize="18"
+                TranslationY="30"/>
+
+            <Border StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <Entry
+                    x:Name="etrEmail"
+                    IsEnabled="True"
+                    Text="{Binding cliEmail}"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"/>
+            </Border>
+
+            <Label 
+                    x:Name="lblDataCadastro"
+                    Text="Data de Cadastro"
+                    TextColor="Black"
+                    FontSize="18"
+                    TranslationY="30"/>
+
+            <Border StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <Entry
+                    x:Name="etrDataCadastro"
+                    IsEnabled="True"
+                    Text="{Binding cliDataCadastro, StringFormat='dd/mm/yyyy'}"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HeightRequest="50"/>
+            </Border>
+
+            <Label 
+                    x:Name="lblObservacao"
+                    Text="Observação"
+                    TextColor="Black"
+                    FontSize="18"
+                    TranslationY="30"/>
+
+            <Border
+                StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <Editor
+                    x:Name="edtOBSCliente"
+                    IsEnabled="True" 
+                    Text="{Binding cliObs }"
+                    TextColor="Black"
+                    HeightRequest="100"/>
+            </Border>
+
+            <Button
+                x:Name="btnEdtCliente"
+                Text="Editar"
+                TextColor="White"
+                FontAttributes="Bold"
+                BackgroundColor="#FF9920"
+                Clicked="btnEdtClienteOnClicked"
+                TranslationY="15"/>
+
+        </VerticalStackLayout>
+    </ScrollView> 
+    
+</ContentPage>

@@ -64,6 +64,9 @@
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\aboutus.scale-100.png">
       <PackagePath>aboutus.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\animal.scale-100.png">
+      <PackagePath>animal.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
@@ -208,8 +211,8 @@
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cat.scale-100.png">
       <PackagePath>cat.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clientes.scale-100.png">
-      <PackagePath>clientes.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\client.scale-100.png">
+      <PackagePath>client.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\consultas.scale-100.png">
       <PackagePath>consultas.scale-100.png</PackagePath>
@@ -256,14 +259,14 @@
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-100.png">
       <PackagePath>plus.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-100.png">
-      <PackagePath>profile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-100.png">
       <PackagePath>search.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\species.scale-100.png">
       <PackagePath>species.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png">
+      <PackagePath>user.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BichoChiqueApp.deps.json">
       <PackagePath>BichoChiqueApp.deps.json</PackagePath>

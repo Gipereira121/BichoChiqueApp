@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:BichoChiqueApp.Models" 
+             x:Class="BichoChiqueApp.Pages.Clientes"
+             Title=""
+             BackgroundColor="#fff">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="30" Padding="30">
+            
+            <Label 
+                Text="Meus Clientes"
+                TextColor="Black"
+                Padding="0, 30, 0, 0"
+                Margin="30, 2, 2, 0"
+                FontSize="20"
+                FontAttributes="Bold"/>
+
+            <Label 
+                Text="Explore, registre e mantenha o controle dos clientes que você pesquisa"
+                TextColor="Black"
+                Padding="5"
+                Margin="20, 0, 2, 0"
+                FontSize="12"
+                FontAttributes="Bold"/>
+
+            <Border StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <SearchBar
+                 FlowDirection="LeftToRight"
+                 x:Name="SearchBarCliente"
+                 TextColor="#161616"
+                 Placeholder="Pesquisar...."
+                 PlaceholderColor="#161616"
+                 BackgroundColor="#E7EDE4"
+                 TextChanged="txtSearchTextChanged"/>
+            </Border>
+
+            <Button
+             x:Name="btnAddCliente"
+             Text="+ Novo cliente"
+             FontSize="15"
+             TextColor="White"
+             FontAttributes="Bold"
+             BackgroundColor="#D9661F"
+             Clicked="btnAddClienteOnClicked"/>
+
+            <FlexLayout x:Name="cardsContainer"
+                     Wrap="Wrap"
+                     JustifyContent="SpaceAround"
+                     AlignItems="Start"
+                     Direction="Row"
+                     BindableLayout.EmptyView="Nenhum cliente cadastrado."/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

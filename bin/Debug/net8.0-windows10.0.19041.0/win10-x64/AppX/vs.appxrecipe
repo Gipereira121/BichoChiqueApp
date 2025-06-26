@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-06-22T18:58:22.435</Modified>
+      <Modified>2025-06-25T00:25:07.474</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-06-22T18:58:21.924</Modified>
+      <Modified>2025-06-25T00:25:07.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BichoChiqueApp.runtimeconfig.json">
       <PackagePath>BichoChiqueApp.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BichoChiqueApp.dll">
       <PackagePath>BichoChiqueApp.dll</PackagePath>
-      <Modified>2025-06-22T18:58:18.401</Modified>
+      <Modified>2025-06-25T00:25:04.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BichoChiqueApp.exe</PackagePath>
-      <Modified>2025-06-22T18:58:18.537</Modified>
+      <Modified>2025-06-25T00:25:04.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -84,279 +84,283 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\aboutus.scale-100.png">
       <PackagePath>aboutus.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.010</Modified>
+      <Modified>2025-06-22T20:06:49.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\animal.scale-100.png">
+      <PackagePath>animal.scale-100.png</PackagePath>
+      <Modified>2025-06-22T20:06:49.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-06-22T18:55:59.007</Modified>
+      <Modified>2025-06-22T20:06:49.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.986</Modified>
+      <Modified>2025-06-22T20:06:49.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.985</Modified>
+      <Modified>2025-06-22T20:06:49.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.984</Modified>
+      <Modified>2025-06-22T20:06:49.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.982</Modified>
+      <Modified>2025-06-22T20:06:49.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.981</Modified>
+      <Modified>2025-06-22T20:06:49.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.999</Modified>
+      <Modified>2025-06-22T20:06:49.339</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.998</Modified>
+      <Modified>2025-06-22T20:06:49.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.997</Modified>
+      <Modified>2025-06-22T20:06:49.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.998</Modified>
+      <Modified>2025-06-22T20:06:49.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.997</Modified>
+      <Modified>2025-06-22T20:06:49.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.001</Modified>
+      <Modified>2025-06-22T20:06:49.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.001</Modified>
+      <Modified>2025-06-22T20:06:49.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.999</Modified>
+      <Modified>2025-06-22T20:06:49.339</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.000</Modified>
+      <Modified>2025-06-22T20:06:49.341</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.000</Modified>
+      <Modified>2025-06-22T20:06:49.340</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.006</Modified>
+      <Modified>2025-06-22T20:06:49.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.006</Modified>
+      <Modified>2025-06-22T20:06:49.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.005</Modified>
+      <Modified>2025-06-22T20:06:49.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.005</Modified>
+      <Modified>2025-06-22T20:06:49.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.004</Modified>
+      <Modified>2025-06-22T20:06:49.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.004</Modified>
+      <Modified>2025-06-22T20:06:49.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.003</Modified>
+      <Modified>2025-06-22T20:06:49.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.002</Modified>
+      <Modified>2025-06-22T20:06:49.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.003</Modified>
+      <Modified>2025-06-22T20:06:49.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.002</Modified>
+      <Modified>2025-06-22T20:06:49.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.992</Modified>
+      <Modified>2025-06-22T20:06:49.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.991</Modified>
+      <Modified>2025-06-22T20:06:49.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.991</Modified>
+      <Modified>2025-06-22T20:06:49.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.990</Modified>
+      <Modified>2025-06-22T20:06:49.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.989</Modified>
+      <Modified>2025-06-22T20:06:49.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.994</Modified>
+      <Modified>2025-06-22T20:06:49.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.994</Modified>
+      <Modified>2025-06-22T20:06:49.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.993</Modified>
+      <Modified>2025-06-22T20:06:49.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.993</Modified>
+      <Modified>2025-06-22T20:06:49.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.992</Modified>
+      <Modified>2025-06-22T20:06:49.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.996</Modified>
+      <Modified>2025-06-22T20:06:49.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.996</Modified>
+      <Modified>2025-06-22T20:06:49.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.995</Modified>
+      <Modified>2025-06-22T20:06:49.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.995</Modified>
+      <Modified>2025-06-22T20:06:49.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.995</Modified>
+      <Modified>2025-06-22T20:06:49.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.989</Modified>
+      <Modified>2025-06-22T20:06:49.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.988</Modified>
+      <Modified>2025-06-22T20:06:49.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.988</Modified>
+      <Modified>2025-06-22T20:06:49.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.987</Modified>
+      <Modified>2025-06-22T20:06:49.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.987</Modified>
+      <Modified>2025-06-22T20:06:49.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bin.scale-100.png">
       <PackagePath>bin.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.010</Modified>
+      <Modified>2025-06-22T20:06:49.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cat.scale-100.png">
       <PackagePath>cat.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.009</Modified>
+      <Modified>2025-06-22T20:06:49.360</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clientes.scale-100.png">
-      <PackagePath>clientes.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.970</Modified>
+    <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\client.scale-100.png">
+      <PackagePath>client.scale-100.png</PackagePath>
+      <Modified>2025-06-22T20:06:49.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\consultas.scale-100.png">
       <PackagePath>consultas.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.009</Modified>
+      <Modified>2025-06-22T20:06:49.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dog.scale-100.png">
       <PackagePath>dog.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.010</Modified>
+      <Modified>2025-06-22T20:06:49.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.023</Modified>
+      <Modified>2025-06-22T20:06:49.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.022</Modified>
+      <Modified>2025-06-22T20:06:49.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.017</Modified>
+      <Modified>2025-06-22T20:06:49.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.011</Modified>
+      <Modified>2025-06-22T20:06:49.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.011</Modified>
+      <Modified>2025-06-22T20:06:49.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eiplus.scale-100.png">
       <PackagePath>eiplus.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.008</Modified>
+      <Modified>2025-06-22T20:06:49.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
       <PackagePath>home.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.974</Modified>
+      <Modified>2025-06-22T20:06:49.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\insertplus.scale-100.png">
       <PackagePath>insertplus.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.980</Modified>
+      <Modified>2025-06-22T20:06:49.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.969</Modified>
+      <Modified>2025-06-22T20:06:49.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa.scale-100.png">
       <PackagePath>lupa.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.973</Modified>
+      <Modified>2025-06-22T20:06:49.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pencil.scale-100.png">
       <PackagePath>pencil.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.978</Modified>
+      <Modified>2025-06-22T20:06:49.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pets.scale-100.png">
       <PackagePath>pets.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.969</Modified>
+      <Modified>2025-06-22T20:06:49.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-100.png">
       <PackagePath>plus.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.007</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-100.png">
-      <PackagePath>profile.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.975</Modified>
+      <Modified>2025-06-22T20:06:49.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-100.png">
       <PackagePath>search.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:59.008</Modified>
+      <Modified>2025-06-22T20:06:49.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\species.scale-100.png">
       <PackagePath>species.scale-100.png</PackagePath>
-      <Modified>2025-06-22T18:55:58.971</Modified>
+      <Modified>2025-06-22T20:06:49.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png">
+      <PackagePath>user.scale-100.png</PackagePath>
+      <Modified>2025-06-22T20:06:49.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\AppBichoChique\BichoChiqueApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BichoChiqueApp.deps.json">
       <PackagePath>BichoChiqueApp.deps.json</PackagePath>
-      <Modified>2025-06-22T18:58:21.319</Modified>
+      <Modified>2025-06-25T00:25:06.714</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

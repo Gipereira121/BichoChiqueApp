@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BichoChiqueApp.Pages.Animal"
+             Title=""
+             BackgroundColor="#fff">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="30" Padding="30">
+
+            <Label 
+                Text="Animal"
+                TextColor="Black"
+                Padding="0, 30, 0, 0"
+                Margin="30, 2, 2, 0"
+                FontSize="20"
+                FontAttributes="Bold"/>
+
+            <Label 
+                Text="Explore, registre e mantenha o controle dos animais que você pesquisa"
+                TextColor="Black"
+                Padding="5"
+                Margin="20, 0, 2, 0"
+                FontSize="12"
+                FontAttributes="Bold"/>
+
+            <Border StrokeShape="RoundRectangle 10, 10, 10, 10">
+                <SearchBar
+                     FlowDirection="LeftToRight"
+                     x:Name="SearchBarAnimal"
+                     TextColor="#161616"
+                     Placeholder="Pesquisar...."
+                     PlaceholderColor="#161616"
+                     BackgroundColor="#E7EDE4"
+                     TextChanged="txtSearchTextChanged"/>
+            </Border>
+
+            <Button
+             x:Name="btnAddAnimal"
+             Text="+ Novo animal"
+             FontSize="15"
+             TextColor="White"
+             FontAttributes="Bold"
+             BackgroundColor="#D9661F"
+             Clicked="btnAddAnimalOnClicked"/>
+
+            <FlexLayout x:Name="cardsContainer"
+                     Wrap="Wrap"
+                     JustifyContent="SpaceAround"
+                     AlignItems="Start"
+                     Direction="Row"
+                     BindableLayout.EmptyView="Nenhum animal cadastrado."/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
